@@ -1,12 +1,12 @@
-React Router 2.x
-==============================
+#React Router 2.x
+
 cnpm i react-router -S</br>
 npm info react-router-----------------查看版本(为了学习router2.0)</br>
 cnpm i react@15.6.2 react-dom@15.6.2 -S</br>
 cnpm i react-router@2.0.1 -S</br>
 </br>
-总结：
------------------
+##总结：
+
 1.进行模块安装 </br>
 2.Router,Route,hashHistory,Link,activeClassName,NavLink,IndexLink,</br>
 onlyActiveOnIndex,push,this.props.children</br>
@@ -15,7 +15,8 @@ hashHistory，Router(确认整个路由对象),Route(确定当前的路由对象
 ```
 <Router history={hashHistory}>
           <Route></Route>
-</Router>```			
+</Router>
+```
 4.要链接就Link，有链接就有目标，该目标就是to，不用a标签的主要因素是高亮，实现高亮的方法是activeClassName</br>
 5.实现嵌套方式很简单，路由设置的时候只需要将Route进行标签式嵌套就可以了，但是需要在“主组件”里面写this.props.children进行子组件的渲染操作</br>
 6.参数：设参，传参，接参</br>
