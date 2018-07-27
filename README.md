@@ -6,7 +6,7 @@ cnpm i react@15.6.2 react-dom@15.6.2 -S</br>
 cnpm i react-router@2.0.1 -S</br>
 </br>
 ##总结：
-
+-
 1.进行模块安装 </br>
 2.Router,Route,hashHistory,Link,activeClassName,NavLink,IndexLink,</br>
 onlyActiveOnIndex,push,this.props.children</br>
