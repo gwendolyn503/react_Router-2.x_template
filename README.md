@@ -1,5 +1,5 @@
 #React Router 2.x
-
+=
 cnpm i react-router -S</br>
 npm info react-router-----------------查看版本(为了学习router2.0)</br>
 cnpm i react@15.6.2 react-dom@15.6.2 -S</br>
